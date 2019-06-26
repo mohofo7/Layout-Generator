@@ -10,7 +10,7 @@ class container extends React.Component{
             return <Slot slotType={slot}/>
         })
         return (
-            <div>{slots}</div>
+            <div className="container">{slots}</div>
         )
     }
 }
