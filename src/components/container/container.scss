@@ -1,0 +1,19 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.SMwidth {
+    width: 50%;
+}
+
+.XLLwidth {
+    width: 100%;
+}
+
+.cont {
+    @extend .d-flex;
+    @extend .flex-row;
+    @extend .flex-wrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

@@ -9,12 +9,14 @@
 
 .L {
     padding: 2.5rem;
+    width: 100%;
     margin: 0.1rem;
     background-color: brown
 }
 
 .SM {
-    width: 50%;
+    // @extend .flex-fill;
+    width: 100%;
     padding: 2.5rem;
     margin: 0.1rem;
     background-color: darkolivegreen
