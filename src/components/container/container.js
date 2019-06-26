@@ -6,7 +6,7 @@ class container extends React.Component{
     render(){
         return (
             <div>
-                Slots will be here
+                {this.props.layoutString}
                 <Slot />
                 <Slot />
             </div>
