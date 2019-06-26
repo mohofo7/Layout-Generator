@@ -1,14 +1,14 @@
 import React from 'react'
 import Slot from './../slot/slot'
 import parseString from './../../utils/parseString'
+import './container.css'
 class container extends React.Component{
 
     render(){
         let parsedString = parseString(this.props.layoutString)
-        console.log(parsedString)
-        let slots = parsedString.map((slot)=>
-            <Slot className = {slot}/>
-        )
+        let slots = parsedString.map((slot)=>{
+            return <Slot slotType={slot}/>
+        })
         return (
             <div>{slots}</div>
         )

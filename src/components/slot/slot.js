@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './slot.scss'
 function Slot(props){
     return (
-        <div>
+        <div className={props.slotType}>
             Slot
         </div>
     )
