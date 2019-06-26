@@ -17,9 +17,11 @@ class DropDown extends React.Component {
             <option key={opt} value={opt}>{opt}</option>
         )
         return (
-            <select onChange={this.selectAnOption}>
-                {options}
-            </select>
+            <div className="selectContainer">
+                <select onChange={this.selectAnOption}>
+                    {options}
+                </select>
+            </div>
         )
     }
 }
