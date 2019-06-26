@@ -24,6 +24,8 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
+        <h2 className="title">Layout Generator</h2>
+        <h6 className="subtitle">Select : </h6>
         <DropDown selectLayout={this.selectLayout}/>
         <Container layoutString={this.state.layoutString}/>
       </div>

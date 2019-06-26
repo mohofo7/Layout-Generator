@@ -4,14 +4,20 @@
     padding: 5rem;
     width: 100%;
     margin: 0.1rem;
-    background-color: aqua
+    border-color: #2b4d5a;
+    border-width: 2px;
+    border-style: dashed;
+    background-color: #366070
 }
 
 .L {
     padding: 2.5rem;
     width: 100%;
     margin: 0.1rem;
-    background-color: brown
+    border-color: rgb(149, 134, 156);
+    border-width: 2px;
+    border-style: dashed;
+    background-color: #D4BFDE
 }
 
 .SM {
@@ -19,5 +25,8 @@
     width: 100%;
     padding: 2.5rem;
     margin: 0.1rem;
-    background-color: darkolivegreen
+    border-color: rgb(136, 167, 167);
+    border-width: 2px;
+    border-style: dashed;
+    background-color: #BEDDDD
 }

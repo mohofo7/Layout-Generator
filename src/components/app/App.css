@@ -1,3 +1,15 @@
 .App {
-  text-align: center;
+  text-align: left;
+  background-color: #39393A;
+}
+
+.title {
+   color: antiquewhite;
+   padding-left: 2rem;
+   padding-top: 1rem;
+}
+
+.subtitle {
+  color : rgb(189, 177, 161);
+  padding-left: 2.5rem;
 }
